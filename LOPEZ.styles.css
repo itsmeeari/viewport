@@ -316,10 +316,14 @@ img{
 }
 /* --------------- END LARGE SCREEN SIZES --------------- */
 
-
-
 /* ---------- ADJUSTING RESPONSIVE IMAGE SIZE ---------- */
 /* --------------- BEGIN RESPONSIVE IMAGE ADJUST SIZES --------------- */
+@media screen and (min-width: 320px) {
+    img{
+        width: 100px;
+        max-width: 100px;
+    } 
+}
 @media screen and (min-width: 480px) {
     img{
         width: 150px;
@@ -339,8 +343,6 @@ img{
     } 
 }
 /* --------------- END RESPONSIVE IMAGE ADJUST SIZES --------------- */
-
-
 
 /* ---------- EXTRA LARGE SCREEN STYLES ---------- */
 /* --------------- BEGIN EXTRA LARGE SCREEN SIZES --------------- */
