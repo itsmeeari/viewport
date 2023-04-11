@@ -151,7 +151,7 @@ footer .icon{
 }
 /* --------------- END USER PREFERS REDUCED MOTION QUERY --------------- */
 
-/* FEATURE QUERY OF MY CHOICE */
+/* ------ FEATURE QUERY OF MY CHOICE ------ */
 @supports (display: flex) {
     main {
         display: flex;
@@ -209,7 +209,6 @@ img{
 }
 }
 
-
 /* ---------- SMALL SCREEN STYLES ---------- */
 /* --------------- BEGIN SMALL SCREEN SIZES --------------- */
 @media screen and (min-width: 480px) {
@@ -242,8 +241,6 @@ img{
 }
 /* --------------- END SMALL SCREEN SIZES --------------- */
 
-
-
 /* ---------- MEDIUM SCREEN STYLES ---------- */
 /* --------------- BEGIN MEDIUM SCREEN SIZES --------------- */
 @media screen and (min-width: 768px) {
@@ -275,8 +272,6 @@ img{
     } 
 }
 /* --------------- END MEDIUM SCREEN SIZES --------------- */
-
-
 
 /* ---------- LARGE SCREEN STYLES ---------- */
 /* --------------- BEGIN LARGE SCREEN SIZES --------------- */
@@ -330,7 +325,7 @@ img{
         max-width: 150px;
     } 
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
     img{
         width: 200px;
         max-width: 200px;
